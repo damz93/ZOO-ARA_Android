@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:background="@drawable/splash"
+    android:background="@drawable/splash_ed"
     android:layout_height="fill_parent" >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="5pt"
+        android:gravity="bottom|center"
+        android:text=""
+        android:textColor="#2e2d2c"
+        android:id="@+id/txt_version"
+        android:textSize="8pt"
+        />
 </LinearLayout>
